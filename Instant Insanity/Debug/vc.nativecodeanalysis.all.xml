@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+      <FILENAME>instant insanity.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '26' is out of valid index range '0' to '25' for possibly stack allocated buffer 'thread'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+      <FILENAME>instant insanity.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'thread':  the readable size is '104' bytes, but '108' bytes may be read.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'thread' is an array of 26 elements (104 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'thread' is an Output from 'initializeThread' (declared on line 7)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'thread' is an Output from 'addToThreadArray' (declared on line 6)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+        <FILENAME>instant insanity.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'thread[26]', (readable range is 0 to 25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\miguel\source\repos\instant insanity\instant insanity\</FILEPATH>
+      <FILENAME>instant insanity.cpp</FILENAME>
+      <LINE>83</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION>
+    <FUNCTION>addToThreadArray</FUNCTION>
+    <DECORATED>?addToThreadArray@@YAXQAHHHAAH1H@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
